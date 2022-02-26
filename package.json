@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js",
+    "deploy": "vercel --prod"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "vercel": "^24.0.0"
   }
 }
